@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/weather/weather",
+    "pages/city/city",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#555",
+    "navigationBarTitleText":"天气预报",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#666",
+    "enabledPullDownRefresh":true
+  },
+"tabBar":{
+  "color":"#666",
+  "selectedColor":"56abe4",
+  "backgroundColor":"#ddd",
+  "borderStyle":"black",
+  "list":[{
+    "pagePath":"pages/weather/weather",
+    "iconPath":"images/tabbar/weather1.png",
+    "selectedIconPath":"images/tabbar/weather2.png",
+    "text":"天气预报"
+  },{
+    "pagePath": "pages/city/city",
+    "iconPath": "images/tabbar/city1.png",
+    "selectedIconPath": "images/tabbar/city2.png",
+    "text": "设置城市"
+  },{
+    "pagePath": "pages/about/about",
+    "iconPath": "images/tabbar/about1.png",
+    "selectedIconPath": "images/tabbar/about2.png",
+    "text": "关于"
+  },
+  {
+    "pagePath": "pages/index/index",
+    "iconPath": "images/tabbar/weather1.png",
+    "selectedIconPath": "images/tabbar/weather2.png",
+    "text": "主页"
+  },
+  {
+    "pagePath": "pages/logs/logs",
+    "iconPath": "images/tabbar/weather1.png",
+    "selectedIconPath": "images/tabbar/weather2.png",
+    "text": "日志"
+  }],
+  "position":"bottom"
+}
+}
